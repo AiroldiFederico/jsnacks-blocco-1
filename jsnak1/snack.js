@@ -1,4 +1,4 @@
-// l''utente inserisce due numeri in sucessione, con due prompt. il software stampa il maggiore
+/*--------------------SNACK 1----------------------*/
 
 
 // chiedi all'utente di inserire il primo numero
@@ -21,7 +21,7 @@
 //   }
 
 
-/*----------------------------------------------------*/
+/*--------------------SNACK 2----------------------*/
   
 // chiedi all'utente di inserire il primo numero
 // let parola1 = prompt("Inserisci la prima parola:");
@@ -40,7 +40,7 @@
 // }
 
 
-/*---------------------------------------------------*/
+/*----------------SNACK 3---------------------------*/
 
 // let somma = 0;
 
@@ -56,16 +56,16 @@
 // console.log(`la somma dei numeri è: ${somma}`)
 
 
-/*---------------------------------------------*/
+/*--------------------SNACK 4-----------------------*/
 
 
 let array = [];
 
 for ( let i = 0; i < 6; i++) {
 
-    let numero = prompt("inserisci il numero");
+    let numero = parseFloat(prompt("inserisci il numero"));
 
-    if (numero % 2 === 1 ) {
+    if (numero % 2 != 0 ) {
         array.push(numero);
     } else {
         console.log(`numero è pari`);
@@ -73,3 +73,4 @@ for ( let i = 0; i < 6; i++) {
 }
 
 console.log(array);
+
